@@ -1,6 +1,6 @@
 {
     "$schema": "https://mintlify.com/schema.json",    
-    "versions": ["Version 14.x", "Version 13.x"],
+    "versions": ["Version 13.x", "Version 14.x"],
     "name": "Teleport",
     "logo": {
       "light": "/logo/light.png",
@@ -46,8 +46,18 @@
     "navigation": [
         {
           "group": "Home",
-          "pages": ["cloud/v14.x/index", "cloud/v14.x/core-concepts"],
-          "version": "Version 14.x"
+          "pages": ["cloud/v13.x/index", "cloud/v13.x/core-concepts"],
+          "version": "Version 13.x"
+        },
+        {
+          "group": "Access Requests",
+          "pages": ["cloud/v13.x/access-requests/resource-requests"],
+          "version": "Version 13.x"
+        },
+        {
+          "group": "Home",
+          "pages": ["team/v13.x/index"],
+          "version": "Version 13.x"
         }
       ],
     "footerSocials":
