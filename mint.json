@@ -56,7 +56,7 @@
         },
         {
           "group": "Home",
-          "pages": ["team/v13.x/index"],
+          "pages": ["team/v13.x/index", "team/v13.x/core-concepts"],
           "version": "Version 13.x"
         }
       ],
