@@ -1,0 +1,35 @@
+<Tabs>
+  <Tab title="Public internet deployment with Let's Encrypt">
+
+Let's Encrypt verifies that you control the domain name of your Teleport cluster by communicating with the HTTPS server listening on port 443 of your Teleport Proxy Service.
+
+You can configure the Teleport Proxy Service to complete the Let's Encrypt verification process when it starts up.
+
+On the host where you will start the Teleport Auth Service and Proxy Service, run the following `teleport configure` command. Assign `tele.example.com` to the domain name of your Teleport cluster and `user@example.com` to an email address used for notifications (you can use any domain):
+
+```bash
+sudo teleport configure -o file \
+    --acme --acme-email=user@example.com \
+    --cluster-name=tele.example.com
+```
+
+Port 443 on your Teleport Proxy Service host must allow traffic from all sources.
+
+  </Tab>
+  <Tab title="Private network deployment">
+
+On your Teleport host, place a valid private key and a certificate chain in `/var/lib/teleport/privkey.pem` and `/var/lib/teleport/fullchain.pem` respectively.
+
+The leaf certificate must have a subject that corresponds to the domain of your Teleport host, e.g., `*.teleport.example.com`.
+
+On the host where you will start the Teleport Auth Service and Proxy Service, run the following `teleport configure` command. Assign `tele.example.com` to the domain name of your Teleport cluster.
+
+```bash
+sudo teleport configure -o file \
+    --cluster-name=tele.example.com \
+    --public-addr=tele.example.com:443 \
+    --cert-file=/var/lib/teleport/fullchain.pem \
+    --key-file=/var/lib/teleport/privkey.pem
+```
+  </Tab>
+</Tabs>
