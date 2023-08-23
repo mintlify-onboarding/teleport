@@ -58,6 +58,16 @@
           "group": "Home",
           "pages": ["team/v13.x/index", "team/v13.x/core-concepts"],
           "version": "Version 13.x"
+        },
+        {
+          "group": "Access Requests",
+          "pages": ["enterprise/v13.x/access-requests/resource-requests"],
+          "version": "Version 13.x"
+        },
+        {
+          "group": "Access Requests",
+          "pages": ["enterprise/v14.x/access-requests/resource-requests"],
+          "version": "Version 14.x"
         }
       ],
     "footerSocials":
