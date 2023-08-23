@@ -60,13 +60,38 @@
           "version": "Version 13.x"
         },
         {
+          "group": "Home",
+          "pages": ["enterprise/v13.x/index", "enterprise/v13.x/core-concepts"],
+          "version": "Version 13.x"
+        },
+        {
           "group": "Access Requests",
           "pages": ["enterprise/v13.x/access-requests/resource-requests"],
           "version": "Version 13.x"
         },
         {
+          "group": "Home",
+          "pages": ["enterprise/v14.x/index", "enterprise/v14.x/core-concepts"],
+          "version": "Version 14.x"
+        },
+        {
           "group": "Access Requests",
           "pages": ["enterprise/v14.x/access-requests/resource-requests"],
+          "version": "Version 14.x"
+        },
+        {
+          "group": "Home",
+          "pages": ["enterprise/v14.x/index", "enterprise/v14.x/core-concepts"],
+          "version": "Version 14.x"
+        },
+        {
+          "group": "Home",
+          "pages": ["opensource/v13.x/index", "opensource/v13.x/core-concepts"],
+          "version": "Version 13.x"
+        },
+        {
+          "group": "Home",
+          "pages": ["opensource/v14.x/index", "opensource/v14.x/core-concepts"],
           "version": "Version 14.x"
         }
       ],

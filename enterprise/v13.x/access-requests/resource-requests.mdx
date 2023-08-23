@@ -13,12 +13,6 @@ under the hood.
 The Access Request API makes it easy to dynamically approve or deny these
 requests.
 
-Just-in-time Access Requests are a feature of Teleport Enterprise.
-Open-source Teleport users can get a preview of how Access Requests work by
-requesting a role via the Teleport CLI. Full Access Request functionality,
-including Resource Access Requests and an intuitive and searchable UI are
-available in Teleport Enterprise.
-
 ## Prerequisites
 
 <Snippet file="commercial-prereqs-tabs.mdx" />
@@ -29,12 +23,12 @@ available in Teleport Enterprise.
 tsh login --proxy=myinstance.teleport.sh --user=email@example.com
 tctl status
 Cluster  myinstance.teleport.sh
-
 Version  13.2.3
-
 CA pin   sha256:sha-hash-here
 ```
 You must run subsequent `tctl` commands in this guide on your local machine.
+
+For full privileges, you can also run `tctl` commands on your Auth Service host.
 
 <Warning>
 All `teleport` instances in the cluster must be running Teleport `v10.0.0` or
