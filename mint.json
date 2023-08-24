@@ -46,17 +46,17 @@
     "navigation": [
         {
           "group": "Home",
-          "pages": ["opensource/v13.x/index", "opensource/v13.x/core-concepts"],
+          "pages": ["opensource/v13.x/get-started", "opensource/v13.x/core-concepts"],
           "version": "Version 13.x"
         },
         {
           "group": "Home",
-          "pages": ["opensource/v14.x/index", "opensource/v14.x/core-concepts"],
+          "pages": ["opensource/v14.x/get-started", "opensource/v14.x/core-concepts"],
           "version": "Version 14.x"
         },
         {
           "group": "Home",
-          "pages": ["cloud/v13.x/index", "cloud/v13.x/core-concepts"],
+          "pages": ["cloud/v13.x/get-started", "cloud/v13.x/core-concepts"],
           "version": "Version 13.x"
         },
         {
@@ -66,12 +66,12 @@
         },
         {
           "group": "Home",
-          "pages": ["team/v13.x/index", "team/v13.x/core-concepts"],
+          "pages": ["team/v13.x/get-started", "team/v13.x/core-concepts"],
           "version": "Version 13.x"
         },
         {
           "group": "Home",
-          "pages": ["enterprise/v13.x/index", "enterprise/v13.x/core-concepts"],
+          "pages": ["enterprise/v13.x/get-started", "enterprise/v13.x/core-concepts"],
           "version": "Version 13.x"
         },
         {
@@ -81,7 +81,7 @@
         },
         {
           "group": "Home",
-          "pages": ["enterprise/v14.x/index", "enterprise/v14.x/core-concepts"],
+          "pages": ["enterprise/v14.x/get-started", "enterprise/v14.x/core-concepts"],
           "version": "Version 14.x"
         },
         {
@@ -91,7 +91,7 @@
         },
         {
           "group": "Home",
-          "pages": ["enterprise/v14.x/index", "enterprise/v14.x/core-concepts"],
+          "pages": ["enterprise/v14.x/get-started", "enterprise/v14.x/core-concepts"],
           "version": "Version 14.x"
         }
       ],
