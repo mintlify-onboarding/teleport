@@ -1,103 +1,115 @@
 {
-    "$schema": "https://mintlify.com/schema.json",    
-    "versions": ["Version 13.x", "Version 14.x"],
-    "name": "Teleport",
-    "logo": {
-      "light": "/logo/light.png",
-      "dark": "/logo/dark.png"
+  "$schema": "https://mintlify.com/schema.json",
+  "versions": ["Version 13.x", "Version 14.x"],
+  "name": "Teleport",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#512FC9",
+    "light": "#7956F5",
+    "dark": "#512FC9"
+  },
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://goteleport.com/pricing/"
+  },
+  "topbarLinks": [
+    {
+      "name": "Sign In",
+      "url": "https://teleport.sh/"
+    }
+  ],
+  "topAnchor": {
+    "name": "OpenSource",
+    "icon": "code"
+  },
+  "anchors": [
+    {
+      "name": "Team",
+      "icon": "people-group",
+      "url": "team"
     },
-    "favicon": "/favicon.png",
-    "colors": {
-      "primary": "#512FC9",
-      "light": "#7956F5",
-      "dark": "#512FC9"
+    {
+      "name": "Cloud",
+      "icon": "cloud",
+      "url": "cloud"
     },
-    "topbarCtaButton": {
-      "name": "Get Started",
-      "url": "https://goteleport.com/pricing/"
-    },
-    "topbarLinks": [
-      {
-        "name": "Sign In",
-        "url": "https://teleport.sh/"
-      }
-    ],
-    "topAnchor": {
-        "name": "OpenSource",
-        "icon": "code"
-    },
-    "anchors": [
-      {
-        "name": "Team",
-        "icon": "people-group",
-        "url": "team"
-      },
-      {
-        "name": "Cloud",
-        "icon": "cloud",
-        "url": "cloud"
-      },
-      {
-        "name": "Enterprise",
-        "icon": "list-dropdown",
-        "url": "enterprise"
-      }
-    ],
-    "navigation": [
-        {
-          "group": "Home",
-          "pages": ["opensource/v13.x/get-started", "opensource/v13.x/core-concepts"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["opensource/v14.x/get-started", "opensource/v14.x/core-concepts"],
-          "version": "Version 14.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["cloud/v13.x/get-started", "cloud/v13.x/core-concepts"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Access Requests",
-          "pages": ["cloud/v13.x/access-requests/resource-requests"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["team/v13.x/get-started", "team/v13.x/core-concepts"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["enterprise/v13.x/get-started", "enterprise/v13.x/core-concepts"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Access Requests",
-          "pages": ["enterprise/v13.x/access-requests/resource-requests"],
-          "version": "Version 13.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["enterprise/v14.x/get-started", "enterprise/v14.x/core-concepts"],
-          "version": "Version 14.x"
-        },
-        {
-          "group": "Access Requests",
-          "pages": ["enterprise/v14.x/access-requests/resource-requests"],
-          "version": "Version 14.x"
-        },
-        {
-          "group": "Home",
-          "pages": ["enterprise/v14.x/get-started", "enterprise/v14.x/core-concepts"],
-          "version": "Version 14.x"
-        }
+    {
+      "name": "Enterprise",
+      "icon": "list-dropdown",
+      "url": "enterprise"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": [
+        "opensource/v13.x/get-started",
+        "opensource/v13.x/core-concepts"
       ],
-    "footerSocials":
-      {
-          "twitter": "https://twitter.com/goteleport?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "linkedin": "https://www.linkedin.com/company/go-teleport/"
-      }
+      "version": "Version 13.x"
+    },
+    {
+      "group": "Home",
+      "pages": [
+        "opensource/v14.x/get-started",
+        "opensource/v14.x/core-concepts"
+      ],
+      "version": "Version 14.x"
+    },
+    {
+      "group": "Home",
+      "pages": ["cloud/v13.x/get-started", "cloud/v13.x/core-concepts"]
+    },
+    {
+      "group": "Access Requests",
+      "pages": ["cloud/v13.x/access-requests/resource-requests"],
+      "version": "Version 13.x"
+    },
+    {
+      "group": "Home",
+      "pages": ["team/v13.x/get-started", "team/v13.x/core-concepts"]
+    },
+    {
+      "group": "Home",
+      "pages": [
+        "enterprise/v13.x/get-started",
+        "enterprise/v13.x/core-concepts"
+      ],
+      "version": "Version 13.x"
+    },
+    {
+      "group": "Access Requests",
+      "pages": ["enterprise/v13.x/access-requests/resource-requests"],
+      "version": "Version 13.x"
+    },
+    {
+      "group": "Home",
+      "pages": [
+        "enterprise/v14.x/get-started",
+        "enterprise/v14.x/core-concepts"
+      ],
+      "version": "Version 14.x"
+    },
+    {
+      "group": "Access Requests",
+      "pages": ["enterprise/v14.x/access-requests/resource-requests"],
+      "version": "Version 14.x"
+    },
+    {
+      "group": "Home",
+      "pages": [
+        "enterprise/v14.x/get-started",
+        "enterprise/v14.x/core-concepts"
+      ],
+      "version": "Version 14.x"
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/goteleport?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "linkedin": "https://www.linkedin.com/company/go-teleport/"
   }
+}
