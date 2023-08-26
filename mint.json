@@ -12,6 +12,9 @@
     "light": "#7956F5",
     "dark": "#512FC9"
   },
+      "feedback": {
+        "thumbsRating": true
+  },
   "topbarCtaButton": {
     "name": "Get Started",
     "url": "https://goteleport.com/pricing/"
