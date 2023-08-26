@@ -66,8 +66,7 @@
     },
     {
       "group": "Access Requests",
-      "pages": ["cloud/v13.x/access-requests/resource-requests"],
-      "version": "Version 13.x"
+      "pages": ["cloud/v13.x/access-requests/resource-requests"]
     },
     {
       "group": "Home",
