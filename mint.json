@@ -12,8 +12,8 @@
     "light": "#7956F5",
     "dark": "#512FC9"
   },
-      "feedback": {
-        "thumbsRating": true
+  "feedback": {
+    "thumbsRating": true
   },
   "topbarCtaButton": {
     "name": "Get Started",
@@ -99,14 +99,6 @@
     {
       "group": "Access Requests",
       "pages": ["enterprise/v14.x/access-requests/resource-requests"],
-      "version": "Version 14.x"
-    },
-    {
-      "group": "Home",
-      "pages": [
-        "enterprise/v14.x/get-started",
-        "enterprise/v14.x/core-concepts"
-      ],
       "version": "Version 14.x"
     }
   ],
